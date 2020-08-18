@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 15px 0;
+  padding: 20px 0;
   background: rgba(255, 255, 255, 0.95);
 }
 
@@ -76,12 +76,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 {
-  font-size: 30px;
+  font-size: 50px;
   margin: 0;
   padding: 6px 0;
   line-height: 1;
   font-weight: 400;
   letter-spacing: 2px;
+}
+
+#header .logo img{
+  width: auto;
+  max-height: 65px;
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
@@ -90,9 +95,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  padding: 6px 0;
+  padding: 0px 0;
   margin: 0;
-  max-height: 40px;
 }
 
 /*--------------------------------------------------------------
